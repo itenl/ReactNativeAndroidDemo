@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_jumpactivity" type="id">btn_jumpactivity_str</item>
+    <item name="btn_change_theme" type="id">btn_change_theme_str</item>
+</resources>

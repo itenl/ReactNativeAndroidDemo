@@ -19,7 +19,7 @@ class HelloWorld extends React.Component {
   // _onPressButton() {
   //   console.log('You tapped the _onPressButton!');
   //   NativeModules.MyIntentModule.startActivityFromJS(
-  //     'com.example.cmacking.biyaoandroid.MyActivity',
+  //     'com.example.cmacking.reactnativeandroiddemo.MyActivity',
   //     '我是RN HelloWorld 的页面数据'
   //   );
   // }
@@ -78,7 +78,7 @@ class HelloWorld extends React.Component {
         <TouchableNativeFeedback
           onPress={() => {
             NativeModules.MyIntentModule.startActivityFromJS(
-              'com.example.cmacking.biyaoandroid.MyActivity',
+              'com.example.cmacking.reactnativeandroiddemo.MyActivity',
               '我是RN HelloWorld 的页面数据'
             );
           }}
@@ -88,7 +88,7 @@ class HelloWorld extends React.Component {
         <TouchableNativeFeedback
           onPress={() => {
             NativeModules.MyIntentModule.startActivityFromJSGetResult(
-              'com.example.cmacking.biyaoandroid.MyActivity',
+              'com.example.cmacking.reactnativeandroiddemo.MyActivity',
               200,
               msg => {
                 ToastAndroid.show(

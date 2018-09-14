@@ -17,7 +17,7 @@ class TestView extends React.Component {
           title={'跳转到原生页面'}
           onPress={() => {
             NativeModules.MyIntentModule.startActivityFromJS(
-              'com.example.cmacking.biyaoandroid.WelcomeActivity',
+              'com.example.cmacking.reactnativeandroiddemo.WelcomeActivity',
               '我是RN TestView 的页面数据'
             );
           }}

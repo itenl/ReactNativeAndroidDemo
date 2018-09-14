@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="APPThemeNight" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorGray</item>
+        <item name="colorPrimaryDark">@color/colorGray</item>
+        <item name="colorAccent">@color/colorGray</item>
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:background">#f5f5f5</item>
+    </style>
+
 </resources>
