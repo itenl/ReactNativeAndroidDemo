@@ -1,0 +1,2 @@
+# ReactNativeAndroidDemo
+ReactNative基于Android中的集成、两端事件调用、Fragment集成、Callback/Promise使用
