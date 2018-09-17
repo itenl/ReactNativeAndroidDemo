@@ -4,8 +4,10 @@ ReactNative 基于 Android 中的集成、两端事件调用、Fragment 集成�
 
 ## Usage
 
-step 1：通过 clone 本项目后 `npm install` 安装相关依赖；
-step 2：修改 `~/ReactNativeAndroidDemo/local.properties` 下的 `sdk.dir=/Users/[your computer name]/Library/Android/sdk` ；
+step 1：通过 clone 本项目后 `npm install` 安装相关依赖；
+
+step 2：修改 `~/ReactNativeAndroidDemo/local.properties` 下的 `sdk.dir=/Users/[your computer name]/Library/Android/sdk` ；
+
 step 3：`npm start` 即可
 
 ```javascript
